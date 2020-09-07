@@ -1,0 +1,77 @@
+.test-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-container form {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 160px;
+}
+
+label {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: -25px;
+}
+
+
+.test-container form input {
+    margin-top:  20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 48px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+.test-container form input::placeholder {
+    color: #999;
+}
+
+
+
+.test-container form .test{
+    margin-top:  10px;
+    border: 0;
+    border-radius: 4px;
+    height: 48px;
+    font-size: 16px;
+    background: #00d3fb;
+    font-weight:  bold;
+    color:  #fff;
+    cursor: pointer;
+}
+
+.test-container form .accountExists{
+    margin-top:  10px;
+    border: 0;
+    border-radius: 4px;
+    height: 48px;
+    font-size: 16px;
+    background: #f5f5f5;
+    font-weight:  bold;
+    color:  #555555;
+    cursor: pointer;
+}
+
+.test-container form img {
+    height: 165px;
+    width: 285px;    
+}
+
+.test-container form select {
+    margin-top:  20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 48px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #666;
+}

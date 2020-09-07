@@ -1,0 +1,14 @@
+Utilizado node.js no backend e ReactJs no frontend.
+
+Para a instalação da solução: yarn install tanto para back quanto front.
+
+Para executar o frontend: yarn start.
+
+Para executar o backend: yarn dev.
+
+Utilizado express para a API. e axios para realizar as consultas na API.
+
+Maior dificuldade foi para trabalhar com listas no frontend, problemas para gerar os relacionamentos quando fazia a 
+edição ou adição de um registro, para exibir as listas não houve problemas. o restante da implementação foi bem tranquila.
+
+Horas trabalhadas: 19 horas e 48 minutos.

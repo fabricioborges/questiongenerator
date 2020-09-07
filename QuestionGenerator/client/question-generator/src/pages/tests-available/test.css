@@ -1,0 +1,58 @@
+.test-run-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-run-container form {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+ ul{
+    list-style: none;
+    margin-bottom: 20px;;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-top: 50px;  
+    margin-bottom: 20px;  
+}
+
+label {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+
+.test-run-container form input {
+
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 48px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+.test-run-container form input::placeholder {
+    color: #999;
+}
+
+
+.test-run-container form .test-run{
+    margin-top:  10px;
+    border: 0;
+    border-radius: 4px;
+    height: 48px;
+    font-size: 16px;
+    background: #00d3fb;
+    font-weight:  bold;
+    color:  #fff;
+    cursor: pointer;
+}
+
